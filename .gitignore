@@ -1,58 +1,65 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# Voir https://help.github.com/articles/ignoring-files/ pour plus d'informations sur l'ignorance des fichiers.
 
-# dependencies
+# Dépendances
 /node_modules
-.yarn
-/.pnp
+.pnp
 .pnp.js
+.yarn
+
+# Environnements de développement
 .idea
 
-# Database
+# Base de données
 *.db
 
-# testing
+# Tests
 /coverage
 
-# storybook
+# Storybook
 storybook-static
 
-# cypress
+# Cypress
 cypress/screenshots
 cypress/videos
 
-# next.js
+# Next.js
 /.next
 /out
 
-# next-sitemap
+# Next-sitemap
 public/robots.txt
 public/sitemap.xml
 public/sitemap-*.xml
 
-# cache
+# Cache
 .swc/
 
-# production
+# Production
 /build
 
-# misc
+# Divers
 .DS_Store
 *.pem
 Thumbs.db
 
-# debug
+# Fichiers de débogage
 npm-debug.log*
 pnpm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# local env files
+# Fichiers d'environnement local
 .env*.local
 
-# local folder
+# Dossier local
 local
 
-# vercel
+# Vercel
 .vercel
 
+# Lockfile de Yarn
 yarn.lock
+
+# Fichiers de package
+package.json
+package-lock.json
