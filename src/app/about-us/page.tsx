@@ -71,7 +71,7 @@ const AboutUs: React.FC = () => {
               nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
               consequat.
             </p>
-            <ol className="list-decimal list-inside space-y-2">
+            <ol className="list-decimal list-inside space-y-2 ml-4">
               <li>
                 Pretium nibh ipsum consequat nisl vel pretium. Sed vulputate mi
                 sit
