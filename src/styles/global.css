@@ -4,6 +4,13 @@
 @tailwind components;
 @tailwind utilities;
 
+:root{
+  --yellow:#FFD700;
+  --blue:#003366;
+  --sage-green:#B2BEB5;
+  --bg-color:#F5F5F5;
+}
+
 * {
   font-family: 'Poppins', sans-serif;
 }
@@ -62,7 +69,7 @@ html {
 }
 
 .loader .circle {
-  --color: #fd5545;
+  --color: #FFD700;
   --dim: 1.2rem;
   width: var(--dim);
   height: var(--dim);
