@@ -7,7 +7,7 @@
 :root{
   --yellow:#FFD700;
   --blue:#003366;
-  --sage-green:#B2BEB5;
+  --bg-green:#B2BEB5;
   --bg-color:#F5F5F5;
 }
 
@@ -128,4 +128,16 @@ html {
 .hiddenScrollbar {
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
+}
+.bg-green {
+  background-color: var(--bg-green);
+}
+.bg-yellow {
+  background-color: var(--yellow);
+}
+.bg-blue {
+  background-color: var(--blue);
+}
+.bg-beige {
+  background-color: var(--bg-color);
 }

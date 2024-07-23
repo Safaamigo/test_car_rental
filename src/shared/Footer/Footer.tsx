@@ -14,7 +14,7 @@ const Footer: React.FC = () => {
         <FooterBanner />
       </div>
 
-      <div className="bg-black text-white">
+      <div className="bg-green text-white">
         <div className="container grid gap-10 py-16 lg:grid-cols-2 lg:gap-0">
           <div className="space-y-10 md:pr-20">
             <Logo className="block" />
