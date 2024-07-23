@@ -7,11 +7,10 @@ interface LogoProps {
   className?: string;
 }
 
-const Logo: FC<LogoProps> = ({ className = 'hidden' }) => {
+const Logo: FC<LogoProps> = () => {
   return (
     <Link href="/" className="flex cursor-pointer items-center gap-2">
-      <img src={logo.src} alt="Logo" />
-      <span className={`${className} text-2xl font-bold`}>HotKicks.</span>
+      <img src={logo.src} alt="Logo" style={{ width:'60px', height: '50px' }} />
     </Link>
   );
 };
