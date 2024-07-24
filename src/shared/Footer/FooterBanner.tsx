@@ -24,9 +24,7 @@ const FooterBanner = () => {
       </p>
       <div className="mt-10 flex items-center justify-center">
         <Link href="/about-us">
-          <a>
-            <ButtonPrimary sizeClass="px-6 py-4">More about us</ButtonPrimary>
-          </a>
+          <ButtonPrimary sizeClass="px-6 py-4">More about us</ButtonPrimary>
         </Link>
       </div>
     </div>
