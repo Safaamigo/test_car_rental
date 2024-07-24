@@ -3,7 +3,7 @@ import React from "react";
 const AboutUs: React.FC = () => {
   return (
     <div className="flex justify-center items-center min-h-screen bg-gray-100">
-      <div className="bg-white p-6 text-[#003366FF] w-full max-w-4xl">
+      <div className="bg-white p-6 text-[#003366FF] w-full max-w-5xl">
         <section className="text-center mb-8">
           <h1 className="text-4xl font-bold mb-2 text-primary-500">About us</h1>
           <p className="text-[#c3c7c4] mb-2">
@@ -14,11 +14,11 @@ const AboutUs: React.FC = () => {
             <img
               src="assets/images/about_us_car.jpg"
               alt="Car"
-              className="w-3/4 rounded-lg mb-6 shadow-xl"
+              className="w-4/5 rounded-lg shadow-xl my-6"
             />
           </div>
         </section>
-        <hr className="my-2 border-gray-500 dark:border-white" />
+        <hr className="my-6 border-[#BDC1CAFF] dark:border-white w-5/6 mx-auto py-4" />
 
         <section className="space-y-12">
           <div className="space-y-4">
@@ -62,7 +62,7 @@ const AboutUs: React.FC = () => {
               <img
                 src="assets/images/about_us_2.jpg"
                 alt="Handing keys"
-                className="w-1/2 rounded-lg mb-4 shadow-xl"
+                className="w-4/5  rounded-lg my-6 shadow-xl"
               />
             </div>
             <p className="text-gray-600">
