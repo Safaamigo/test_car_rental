@@ -634,19 +634,18 @@ export const brandsSection = {
   ],
 };
 
-<<<<<<< HEAD
+
 // export const footerBannerData = {
 //   heading: 'BRINGING YOU TO UPDATE WITH FANTASTIC FOOTWEAR',
 //   description:
 //     'View all brands of our collection on HotKicks, there is another collection. Please check it out bro, like seriously',
 // };
-=======
+
 export const footerBannerData = {
   heading: "BRINGING YOU TO UPDATE WITH FANTASTIC FOOTWEAR",
   description:
     "View all brands of our collection on HotKicks, there is another collection. Please check it out bro, like seriously",
 };
->>>>>>> 9274e7063ed5110984649103be31e814a8066e72
 
 export const footerData = {
   description:

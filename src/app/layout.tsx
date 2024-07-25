@@ -1,43 +1,31 @@
+'use client';
 import '@/styles/global.css';
-import type { Metadata } from 'next';
-import React from 'react';
-import ClientLayout from './layoutClient'; // Import the client layout component
 
-export const metadata: Metadata = {
-  title: 'Hotkicks Ecommerce Template',
-  icons: [
-    {
-      rel: 'apple-touch-icon',
-      url: '/apple-touch-icon.png',
-    },
-    {
-      rel: 'icon',
-      type: 'image/png',
-      sizes: '32x32',
-      url: '/favicon.png',
-    },
-    {
-      rel: 'icon',
-      type: 'image/png',
-      sizes: '16x16',
-      url: '/favicon.png',
-    },
-    {
-      rel: 'icon',
-      url: '/favicon.ico',
-    },
-  ],
-};
+import React, { Suspense } from 'react';
+import { usePathname } from 'next/navigation';
+
+import Header from '@/components/Header/Header';
+import Footer from '@/shared/Footer/Footer';
+import MainNav from '@/components/Header/MainNav';
+
+import Loading from './loading';
 
 export default function RootLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
+  const pathname = usePathname();
+  console.log("Current Pathname:", pathname);
+
+  const hideNavAndFooterRoutes = ['/login', '/signup'];
+
   return (
     <html lang="en">
-      <body>
-        <ClientLayout>{children}</ClientLayout>
+      <body className="">
+        {!hideNavAndFooterRoutes.includes(pathname) && <Header />}
+        <Suspense fallback={<Loading />}>{children}</Suspense>
+        {!hideNavAndFooterRoutes.includes(pathname) && <Footer />}
       </body>
     </html>
   );

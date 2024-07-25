@@ -7,9 +7,13 @@ import FormItem from '@/shared/FormItem';
 import Input from '@/shared/Input/Input';
 // Make sure the path to the image is correct
 import imageLogin from '@/images/go.png';
+import TopNav from '@/components/Header/TopNav';
+
 
 const PageLogin = () => {
   return (
+    <div>
+      <TopNav />
     <div className="nc-PageLogin flex min-h-full bg-beige" data-nc-id="PageLogin">
       <div className="flex-1 flex items-center justify-center">
         <div className="max-w-md w-full">
@@ -56,7 +60,7 @@ const PageLogin = () => {
         </div>
       </div>
       
-      <div className="flex relative w-1/2 h-screen flex items-center justify-center">
+      <div className="flex relative w-1/2 w-180 h-180 pt-4 pb-8 h-screen flex items-center justify-center">
         <Image
           src={imageLogin}
           alt="Login Background"
@@ -65,6 +69,7 @@ const PageLogin = () => {
           quality={100}
         />
       </div>
+    </div>
     </div>
   );
 };

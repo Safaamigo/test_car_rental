@@ -1,21 +1,19 @@
 import Link from 'next/link';
 import React from 'react';
 import Image from 'next/image';
-import topnav from '@/components/Header/TopNav';
 import ButtonPrimary from '@/shared/Button/ButtonPrimary';
 import FormItem from '@/shared/FormItem';
 import Input from '@/shared/Input/Input';
-// Make sure the path to the image is correct
+// Assurez-vous que le chemin de l'image est correct
 import imageLogin from '@/images/go.png';
 import TopNav from '@/components/Header/TopNav';
-// import imageLogin from '@/images/login_image.png';
 
 const PageLogin = () => {
   return (
     <div>
       <TopNav />
-      <div className="nc-PageLogin flex min-h-full bg-beige" data-nc-id="PageLogin">
 
+      <div className="nc-PageLogin flex min-h-full bg-beige" data-nc-id="PageLogin">
         <div className="flex-1 flex items-center justify-center">
           <div className="max-w-md w-full">
             <h2 className="my-8 flex items-center justify-center text-3xl font-semibold leading-[115%] md:text-5xl md:leading-[115%]">
@@ -47,9 +45,6 @@ const PageLogin = () => {
                 <Link href="/forgot-pass" className="text-sm text-yellow-500">
                   Forgot password
                 </Link>
-                {/* <Link href="/signup" className="text-sm text-yellow-500">
-                Sign Up
-              </Link> */}
               </div>
               <div className="text-center mt-4 text-sm">
                 <span>I don't have an account? </span>
@@ -61,18 +56,19 @@ const PageLogin = () => {
           </div>
         </div>
 
-        <div className="flex relative w-1/2 h-dvh pt-4 pb-8 flex items-center justify-center">
-          <Image
-            src={imageLogin}
-            alt="Login Background"
-            layout="fill"
-            objectFit="contain"
-            quality={100}
-          />
+        <div className="flex relative w-1/2 h-auto pt-4 pb-8 flex items-center justify-center">
+          <div className="relative w-180 h-180">
+            <Image
+              src={imageLogin}
+              alt="Login Background"
+              layout="fill"
+              objectFit="contain"
+              quality={100}
+            />
+          </div>
         </div>
       </div>
     </div>
-
   );
 };
 
