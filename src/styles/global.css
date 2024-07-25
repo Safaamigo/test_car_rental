@@ -4,56 +4,67 @@
 @tailwind components;
 @tailwind utilities;
 
-:root{
-  --yellow:#FFD700;
-  --blue:#003366;
-  --bg-green:#B2BEB5;
-  --bg-color:#F5F5F5;
+:root {
+  --yellow: #FFD700;
+  --blue: #003366;
+  --bg-green: #B2BEB5;
+  --bg-color: #F5F5F5;
 }
 
 * {
   font-family: 'Poppins', sans-serif;
 }
 
+*, html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .container {
   width: 100%;
   margin-right: auto;
   margin-left: auto;
-  padding-right: 1rem/* 16px */;
-  padding-left: 1rem/* 16px */;
+  padding-right: 1rem; /* 16px */
+  padding-left: 1rem; /* 16px */
 }
+
 @media (min-width: 640px) {
   .container {
-      max-width: 640px;
+    max-width: 640px;
   }
 }
+
 @media (min-width: 768px) {
   .container {
-      max-width: 768px;
+    max-width: 768px;
   }
 }
+
 @media (min-width: 1024px) {
   .container {
-      max-width: 1024px;
+    max-width: 1024px;
   }
 }
+
 @media (min-width: 1280px) {
   .container {
-      max-width: 1280px;
-      padding-right: 40px;
-      padding-left: 40px;
+    max-width: 1280px;
+    padding-right: 40px;
+    padding-left: 40px;
   }
 }
+
 @media (min-width: 1536px) {
   .container {
-      max-width: 1536px;
-      padding-right: 70px;
-      padding-left: 70px;
+    max-width: 1536px;
+    padding-right: 70px;
+    padding-left: 70px;
   }
 }
 
 .transitionEffect {
-  @apply transition ease-in-out hover:-translate-y-1 delay-150 hover:scale-95 duration-300
+  @apply transition ease-in-out hover:-translate-y-1 delay-150 hover:scale-95 duration-300;
 }
 
 html {
@@ -124,20 +135,37 @@ html {
   display: none;
 }
 
+/* START MY STYLE  */
+/* start page login */
+/* .image-style{
+  margin-top: -100px;
+  margin-bottom: ;
+} */
+/* end page login  */
+/* END MY STYLE  */
+
 /* Hide scrollbar for IE, Edge and Firefox */
 .hiddenScrollbar {
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
 }
+
 .bg-green {
   background-color: var(--bg-green);
 }
+
 .bg-yellow {
   background-color: var(--yellow);
 }
+
 .bg-blue {
   background-color: var(--blue);
 }
+
 .bg-beige {
+  background-color: var(--bg-color);
+}
+
+.bg-color {
   background-color: var(--bg-color);
 }
