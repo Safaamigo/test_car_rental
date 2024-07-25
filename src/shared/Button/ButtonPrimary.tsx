@@ -13,7 +13,7 @@ const ButtonPrimary: React.FC<ButtonPrimaryProps> = ({
 }) => {
   return (
     <Button
-      className={`rounded-full bg-primary text-white hover:bg-primary/80 disabled:bg-opacity-70 ${className}`}
+      className={`rounded-none bg-yellow text-white hover:bg-blue/80 disabled:bg-opacity-70 ${className}`}
       {...args}
     />
   );

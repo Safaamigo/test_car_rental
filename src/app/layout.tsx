@@ -1,12 +1,7 @@
 import '@/styles/global.css';
-
 import type { Metadata } from 'next';
-import React, { Suspense } from 'react';
-
-import Header from '@/components/Header/Header';
-import Footer from '@/shared/Footer/Footer';
-
-import Loading from './loading';
+import React from 'react';
+import ClientLayout from './layoutClient'; // Import the client layout component
 
 export const metadata: Metadata = {
   title: 'Hotkicks Ecommerce Template',
@@ -35,24 +30,15 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({
-  // Layouts must accept a children prop.
-  // This will be populated with nested layouts or pages
   children,
 }: {
   children: React.ReactNode;
 }) {
   return (
     <html lang="en">
-      <body className="">
-        <Header />
-        <Suspense fallback={<Loading />}>{children}</Suspense>
-        <Footer />
+      <body>
+        <ClientLayout>{children}</ClientLayout>
       </body>
     </html>
   );
 }
-
-// Enable edge runtime, but you are required to disable the `migrate` function in `src/libs/DB.ts`
-// Unfortunately, this also means it will also disable the automatic migration of the database
-// And, you will have to manually migrate it with `drizzle-kit push`
-// export const runtime = 'edge';
