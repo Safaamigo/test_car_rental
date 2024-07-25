@@ -51,6 +51,9 @@ Run the following command on your local environment:
 
 ```shell
 npm install or yarn install
+npm install @mui/lab @mui/material @mui/joy @mui/system @emotion/react @emotion/styled @mui/icons-material
+npm install jsvectormap 
+npm install flatpickr
 ```
 
 Then, you can run locally in development mode with live reload:

@@ -11,7 +11,7 @@ const ButtonSecondary: React.FC<ButtonSecondaryProps> = ({
   className = '',
   ...args
 }) => {
-  return <Button className={`${className}`} {...args} />;
+  return <Button className={`rounded-lg bg-beige text-secondary hover:bg-beige/80 disabled:bg-opacity-70${className}`} {...args} />;
 };
 
 export default ButtonSecondary;
