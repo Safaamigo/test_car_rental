@@ -719,7 +719,7 @@ export const contactSection = {
         "Lorem ipsum dolor sit amet consectetur adipiscing elit blandit velit semper aliquam.",
       contactLink: {
         href: "tel:+212694246278",
-        title: "+2126 94 24 62 78",
+        title: "+212 694-246278",
       },
     },
     {
