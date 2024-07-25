@@ -56,7 +56,7 @@ const PageLogin = () => {
           </div>
         </div>
 
-        <div className="flex relative w-1/2 h-auto pt-4 pb-8 flex items-center justify-center">
+        <div className=" relative w-1/2 h-auto pt-4 pb-8 flex items-center justify-center">
           <div className="relative w-180 h-180">
             <Image
               src={imageLogin}

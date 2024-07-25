@@ -51,7 +51,7 @@ const PageLogin = () => {
               </Link> */}
             </div>
             <div className="text-center mt-4 text-sm">
-              <span>I don't have an account? </span>
+              <span>I don&apos;t have an account? </span>
               <Link href="/login" className="text-yellow-500">
                 Sign In
               </Link>
@@ -60,7 +60,7 @@ const PageLogin = () => {
         </div>
       </div>
       
-      <div className="flex relative w-1/2 w-180 h-180 pt-4 pb-8 h-screen flex items-center justify-center">
+      <div className="relative w-1/2 w-180 h-180 pt-4 pb-8 h-screen flex items-center justify-center">
         <Image
           src={imageLogin}
           alt="Login Background"

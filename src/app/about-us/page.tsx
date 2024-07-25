@@ -1,5 +1,5 @@
 import React from "react";
-
+import Image from "next/image";
 const AboutUs: React.FC = () => {
   return (
     <div className="flex justify-center items-center min-h-screen bg-gray-100">
@@ -7,11 +7,11 @@ const AboutUs: React.FC = () => {
         <section className="text-center mb-8">
           <h1 className="text-4xl font-bold mb-2 text-primary-500">About us</h1>
           <p className="text-[#c3c7c4] mb-2">
-            We have a bunch of cars for you! Let's explore and find your car
+            We have a bunch of cars for you! Let&apos;s explore and find your car
             rental, make it happen
           </p>
           <div className="flex justify-center">
-            <img
+            <Image
               src="assets/images/about_us_car.jpg"
               alt="Car"
               className="w-4/5 rounded-lg shadow-xl my-6"
@@ -59,7 +59,7 @@ const AboutUs: React.FC = () => {
               senectus.
             </p>
             <div className="flex justify-center">
-              <img
+              <Image
                 src="assets/images/about_us_2.jpg"
                 alt="Handing keys"
                 className="w-4/5  rounded-lg my-6 shadow-xl"
@@ -94,9 +94,9 @@ const AboutUs: React.FC = () => {
           <div className="relative w-3/4 max-w-md p-6 bg-[#f3f4f6] rounded-md shadow-md mx-auto my-6">
             <div className="absolute top-0 left-0 h-full w-2 bg-yellow-400 rounded-l-md"></div>
             <p className="text-yellow-400 font-semibold text-lg">
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dolor
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dolor
               porta rhoncus, viverra sit et auctor. Augue in volutpat sed eget
-              in etiam."
+              in etiam.
             </p>
           </div>
 
