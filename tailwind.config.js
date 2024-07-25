@@ -31,8 +31,9 @@ module.exports = {
         current: "currentColor",
         transparent: "transparent",
         white: "#FFFFFF",
-        primary: '#fd5545',
-        secondary: '#000000',
+        primary: '#FFD700',
+        secondary: '#003366',
+        beige: '#F5F5F5',
         stroke: "#E6EBF1",
         "stroke-dark": "#27303E",
         dark: {

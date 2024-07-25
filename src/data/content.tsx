@@ -119,15 +119,15 @@ export const NavLinks: NavItemType[] = [
 
 export const headerSection = {
   title: 'NEW ARRIVAL!',
-  heading: 'AIR JORDAN 6 GX EASTSIDE',
+  heading: 'LUXURY SEDAN 2023',
   description:
-    "Feel unbeatable from the tee box to the final putt in a design that's pure early MJ: speed, class",
+    "Experience unparalleled comfort and performance with our latest luxury sedan. Perfect for any journey, blending style and efficiency seamlessly.",
 };
 
 export const promotionTag = {
-  heading: 'DISC UP TO 50% FOR SNEAKERS FEST ID 2023',
+  heading: 'SAVE UP TO 50% ON WEEKEND RENTALS',
   description:
-    'Join the sneaker fest 2023 on 23 October. We have more fun gigs too and supported by FootWear!.',
+    'Plan your weekend getaway with us and enjoy up to 50% off on all car rentals. Offer valid from 23 October. Book now and make the most of your trip!',
 };
 
 export const shoes = [
