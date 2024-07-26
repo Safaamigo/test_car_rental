@@ -22,9 +22,9 @@ export default function RootLayout({
 
   return (
     
-      <body suppressHydrationWarning={true}>
+      <>
         {loading ? <Loader /> : children}
-      </body>
+      </>
     
   );
 }
