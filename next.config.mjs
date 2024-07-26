@@ -6,11 +6,11 @@ const bundleAnalyzer = withBundleAnalyzer({
 });
 
 /** @type {import('next').NextConfig} */
-export default bundleAnalyzer({
+const nextConfig = bundleAnalyzer({
   eslint: {
     dirs: ['.'],
   },
-  swcMinify: false,
+  swcMinify: true, // Enable SWC minifier
   images: {
     remotePatterns: [
       {
@@ -30,9 +30,7 @@ export default bundleAnalyzer({
   poweredByHeader: false,
   reactStrictMode: true,
   webpack: (config) => {
-    // config.externals is needed to resolve the following errors:
-    // Module not found: Can't resolve 'bufferutil'
-    // Module not found: Can't resolve 'utf-8-validate'
+    // Add externals to handle specific module resolution issues
     config.externals.push({
       bufferutil: 'bufferutil',
       'utf-8-validate': 'utf-8-validate',
@@ -41,3 +39,5 @@ export default bundleAnalyzer({
     return config;
   },
 });
+
+export default nextConfig;
