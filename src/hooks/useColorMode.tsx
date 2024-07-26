@@ -9,7 +9,6 @@ const useColorMode = () => {
     const className = 'dark';
     const bodyClass = window.document.documentElement.classList;
 
-    // eslint-disable-next-line @typescript-eslint/no-unused-expressions
     colorMode === 'dark'
       ? bodyClass.add(className)
       : bodyClass.remove(className);

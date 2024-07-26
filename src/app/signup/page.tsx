@@ -30,6 +30,13 @@ const PageLogin = () => {
                   placeholder="example@example.com"
                   className="border-neutral-300 bg-transparent placeholder:text-neutral-500 focus:border-primary"
                 />
+                <Input
+                  type="email"
+                  rounded="rounded-none"
+                  sizeClass="h-12 px-4 py-3"
+                  placeholder="example@example.com"
+                  className="border-neutral-300 bg-transparent placeholder:text-neutral-500 focus:border-primary"
+                />
               </FormItem>
               <FormItem label="Password">
                 <Input
@@ -51,7 +58,7 @@ const PageLogin = () => {
               </Link> */}
             </div>
             <div className="text-center mt-4 text-sm">
-              <span>I don't have an account? </span>
+              <span>I don&apos;t have an account? </span>
               <Link href="/login" className="text-yellow-500">
                 Sign In
               </Link>

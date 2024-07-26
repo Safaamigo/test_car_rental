@@ -47,7 +47,7 @@ const PageLogin = () => {
                 </Link>
               </div>
               <div className="text-center mt-4 text-sm">
-                <span>I don't have an account? </span>
+                <span>I don&apos;t have an account? </span>
                 <Link href="/signup" className="text-yellow-500">
                   Sign Up
                 </Link>

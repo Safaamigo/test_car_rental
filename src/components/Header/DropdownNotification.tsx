@@ -1,10 +1,3 @@
-/* eslint-disable react/no-array-index-key */
-/* eslint-disable react/jsx-curly-brace-presence */
-/* eslint-disable tailwindcss/enforces-shorthand */
-/* eslint-disable react/self-closing-comp */
-/* eslint-disable tailwindcss/classnames-order */
-/* eslint-disable jsx-a11y/anchor-is-valid */
-/* eslint-disable prettier/prettier */
 import Image from 'next/image';
 import Link from 'next/link';
 import { useState } from 'react';

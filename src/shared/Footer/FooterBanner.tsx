@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 // import React from 'react';
 
 // import { footerBannerData } from '@/data/content';
@@ -21,7 +21,6 @@
 //     </div>
 //   );
 // };
-=======
 "use client";
 import Link from "next/link";
 import React from "react";
@@ -54,6 +53,5 @@ const FooterBanner = () => {
     </div>
   );
 };
->>>>>>> 9274e7063ed5110984649103be31e814a8066e72
 
-// export default FooterBanner;
+export default FooterBanner;
