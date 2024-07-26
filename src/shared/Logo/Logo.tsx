@@ -10,14 +10,11 @@ interface LogoProps {
 
 const Logo: FC<LogoProps> = ({ className }) => {
   return (
-    <><Link href="/">
+    <Link href="/" legacyBehavior>
       <a className={`flex cursor-pointer items-center gap-2 ${className}`}>
         <Image src={logo} alt="Logo" width={60} height={50} />
       </a>
-    </Link><Link href="/" className="flex cursor-pointer items-center gap-2">
-        <Image src={logo.src} alt="Logo" width={60} height={50} />
-      </Link></>
-
+    </Link>
   );
 };
 
