@@ -1,6 +1,5 @@
 import React from "react";
 import Image from "next/image";
-
 const AboutUs: React.FC = () => {
   return (
     <div className="flex justify-center items-center min-h-screen bg-gray-100">
@@ -102,6 +101,10 @@ const AboutUs: React.FC = () => {
               &quot;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dolor
               porta rhoncus, viverra sit et auctor. Augue in volutpat sed eget
               in etiam.&quot;
+
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dolor
+              porta rhoncus, viverra sit et auctor. Augue in volutpat sed eget
+              in etiam.
             </p>
           </div>
 

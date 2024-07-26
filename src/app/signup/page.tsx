@@ -67,7 +67,7 @@ const PageLogin = () => {
         </div>
       </div>
       
-      <div className="flex relative w-1/2 w-180 h-180 pt-4 pb-8 h-screen flex items-center justify-center">
+      <div className="relative w-1/2 w-180 h-180 pt-4 pb-8 h-screen flex items-center justify-center">
         <Image
           src={imageLogin}
           alt="Login Background"

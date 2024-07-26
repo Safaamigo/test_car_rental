@@ -6,6 +6,10 @@
 .pnp.js
 .yarn
 
+#exclue
+!node_modules/jsvectormap/dist/
+
+
 # Environnements de développement
 .idea
 

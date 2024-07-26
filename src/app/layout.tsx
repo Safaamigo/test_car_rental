@@ -18,14 +18,14 @@ export default function RootLayout({
   const pathname = usePathname();
   console.log("Current Pathname:", pathname);
 
-  const hideNavAndFooterRoutes = ['/login', '/signup'];
+  const hideNavAndFooterRoutes = ['/login', '/signup'].includes(pathname) || pathname.startsWith('/admin');
 
   return (
     <html lang="en">
       <body className="">
-        {!hideNavAndFooterRoutes.includes(pathname) && <Header />}
+        {!hideNavAndFooterRoutes && <Header />}
         <Suspense fallback={<Loading />}>{children}</Suspense>
-        {!hideNavAndFooterRoutes.includes(pathname) && <Footer />}
+        {!hideNavAndFooterRoutes && <Footer />}
       </body>
     </html>
   );
