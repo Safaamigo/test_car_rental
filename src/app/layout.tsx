@@ -6,7 +6,7 @@ import { usePathname } from 'next/navigation';
 
 import Header from '@/components/Header/Header';
 import Footer from '@/shared/Footer/Footer';
-import MainNav from '@/components/Header/MainNav';
+// import MainNav from '@/components/Header/MainNav';
 
 import Loading from './loading';
 
