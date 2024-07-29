@@ -46,11 +46,7 @@ export const topNavLinks: NavItemType[] = [
     name: "Home",
     href: "/home",
   },
-  {
-    id: "eerrrt",
-    name: "Blog",
-    href: "/blog",
-  },
+  
   {
     id: 'eerrrt',
     name: 'about us',
@@ -67,20 +63,28 @@ export const topNavLinks: NavItemType[] = [
     href: "/contact",
   },
   {
-    id: "h678ty",
-    name: "FAQ",
-    href: "/faqs",
-  },
-  {
     id: "h6i78g",
     name: "Checkout",
     href: "/checkout",
   },
-  {
-    id: "f678ty",
-    name: "Cart",
-    href: "/cart",
-  },
+
+
+
+  // {
+  //   id: "eerrrt",
+  //   name: "Blog",
+  //   href: "/blog",
+  // },
+  // {
+  //   id: "h678ty",
+  //   name: "FAQ",
+  //   href: "/faqs",
+  // },
+  // {
+  //   id: "f678ty",
+  //   name: "Cart",
+  //   href: "/cart",
+  // },
 ];
 
 export const NavLinks: NavItemType[] = [
@@ -725,30 +729,30 @@ export const contactSection = {
   },
   directContactInfo: [
     {
-      icon: <FaPhoneAlt className="text-5xl" />,
+      icon: <FaPhoneAlt className="text-3xl" />,
       title: "Phone Number",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipiscing elit blandit velit semper aliquam.",
+      // description:
+      //   "Lorem ipsum dolor sit amet consectetur adipiscing elit blandit velit semper aliquam.",
       contactLink: {
         href: "tel:+212694246278",
         title: "+212 694-246278",
       },
     },
     {
-      icon: <MdAlternateEmail className="text-5xl" />,
+      icon: <MdAlternateEmail className="text-3xl" />,
       title: "Support",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipiscing elit blandit velit semper aliquam.",
+      // description:
+      //   "Lorem ipsum dolor sit amet consectetur adipiscing elit blandit velit semper aliquam.",
       contactLink: {
         href: "mailto:tomobilti@gmail.com",
         title: "tomobilti@gmail.com",
       },
     },
     {
-      icon: <FaInstagram className="text-5xl" />,
+      icon: <FaInstagram className="text-3xl" />,
       title: "Instagram",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipiscing elit blandit velit semper aliquam.",
+      // description:
+      //   "Lorem ipsum dolor sit amet consectetur adipiscing elit blandit velit semper aliquam.",
       contactLink: {
         href: "https://www.instagram.com/tomobilti_db",
         title: "tomobilti_db",

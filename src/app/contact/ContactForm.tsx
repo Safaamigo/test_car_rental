@@ -7,8 +7,8 @@ import Textarea from '@/shared/TextArea/TextArea';
 
 const ContactForm = () => {
   return (
-    <div className="w-full space-y-5">
-      <div className="grid gap-5 md:grid-cols-2">
+    <div className="w-full space-y-5 bg-beige text-blue">
+      <div className="grid gap-5 md:grid-cols-2 ">
         <FormItem label="Name">
           <Input
             placeholder="Full name"

@@ -169,3 +169,11 @@ html {
 .bg-color {
   background-color: var(--bg-color);
 }
+
+.text-blue{
+  color: var(--blue);
+}
+
+.text-bold{
+  font-weight:bold;
+}

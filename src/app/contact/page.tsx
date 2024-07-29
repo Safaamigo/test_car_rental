@@ -14,17 +14,17 @@ const page = () => {
   return (
     <div className="container">
       <div className="mb-32 mt-20">
-        <Heading desc={contactSection.description} isMain isCenter>
+        <Heading className="text-blue" desc={contactSection.description} isMain isCenter>
           {contactSection.heading}
         </Heading>
 
-        <div className="mx-auto max-w-3xl rounded-3xl bg-gray p-5 md:p-10 lg:p-16">
+        <div className="mx-auto max-w-3xl rounded-3xl bg-beige p-5 md:p-10 lg:p-16">
           <ContactForm />
         </div>
       </div>
 
       <div className="mb-32">
-        <Heading
+        <Heading className='text-blue pb-6'
           desc={contactSection.directContactInfoHeader.description}
           isMain
           isCenter
@@ -32,20 +32,20 @@ const page = () => {
           {contactSection.directContactInfoHeader.heading}
         </Heading>
 
-        <div className="grid gap-10 lg:grid-cols-3">
+        <div className="grid gap-10 lg:grid-cols-3 pt-5">
           {contactSection.directContactInfo.map((info) => (
             <div
               key={info.title}
               className="flex flex-col items-center justify-center gap-7"
             >
-              <ButtonCircle3 className="bg-gray text-primary" size="w-24 h-24">
+              <ButtonCircle3 className="bg-beige text-primary" size="w-20 h-20">
                 {info.icon}
               </ButtonCircle3>
 
               <h2 className="text-2xl font-medium">{info.title}</h2>
-              <p className="text-center text-neutral-500">{info.description}</p>
+              {/* <p className="text-center text-neutral-500">{info.description}</p> */}
               <Link
-                className="border-b border-black py-2 text-2xl font-medium hover:border-primary hover:text-primary"
+                className="py-2 text-md hover:border-primary hover:text-primary"
                 href={info.contactLink.href}
               >
                 {info.contactLink.title}
@@ -55,7 +55,7 @@ const page = () => {
         </div>
       </div>
 
-      <div className="mb-32">
+      {/* <div className="mb-32">
         <div className="mb-10 flex items-center justify-between">
           <h2 className="text-3xl font-semibold">Follow us on Instagram</h2>
           <ButtonSecondary className="border-2 border-primary text-primary">
@@ -87,7 +87,7 @@ const page = () => {
             />
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
