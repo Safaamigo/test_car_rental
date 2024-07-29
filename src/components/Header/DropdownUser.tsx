@@ -1,11 +1,3 @@
-/* eslint-disable react/button-has-type */
-/* eslint-disable react/self-closing-comp */
-/* eslint-disable tailwindcss/enforces-shorthand */
-/* eslint-disable react/jsx-curly-brace-presence */
-/* eslint-disable tailwindcss/classnames-order */
-/* eslint-disable jsx-a11y/anchor-is-valid */
-/* eslint-disable simple-import-sort/imports */
-/* eslint-disable prettier/prettier */
 import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";

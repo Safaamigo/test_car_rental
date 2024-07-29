@@ -1,8 +1,3 @@
-/* eslint-disable tailwindcss/classnames-order */
-/* eslint-disable react/button-has-type */
-/* eslint-disable react/jsx-no-useless-fragment */
-/* eslint-disable unused-imports/no-unused-imports */
-/* eslint-disable prettier/prettier */
 import React from "react";
 
 const SearchForm = () => {
