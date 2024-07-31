@@ -1,5 +1,5 @@
 "use client";
-import { Metadata } from "next";
+//import { Metadata } from "next";
 import DefaultLayout from "@/components/Layouts/DefaultLaout";
 import Breadcrumb from "@/components/Breadcrumbs/Breadcrumb";
 import * as React from 'react';
@@ -21,7 +21,7 @@ const Default = () => {
 
   const [value, setValue] = React.useState('1');
 
-  const handleChange = (event: React.SyntheticEvent, newValue: string) => {
+  const handleChange = (_event: React.SyntheticEvent, newValue: string) => {
     setValue(newValue);
   };
 
