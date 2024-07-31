@@ -4,7 +4,7 @@ import DefaultLayout from "@/components_clients/Layouts/DefaultLaout";
 import Breadcrumb from "@/components_clients/Breadcrumbs/Breadcrumb";
 import CarCard from '@/components_clients/Cars/cars-list/CarCard';
 import Container from '@mui/material/Container';
-import { Add, Padding } from '@mui/icons-material';
+import { Add } from '@mui/icons-material';//removing padding import { Add, Padding } from '@mui/icons-material';
 import { Button, Grid, IconButton, Input } from '@mui/joy';
 import SearchIcon from '@mui/icons-material/Search';
 
@@ -47,7 +47,7 @@ const Cars = () => {
             <div>
             {[1, 2, 3].map((value) => (
                 // eslint-disable-next-line react/jsx-key
-                <CarCard />
+                <CarCard key={value}/>
                 ))}
                 
             </div>
