@@ -1,6 +1,9 @@
+'use client';
+
 import Link from 'next/link';
 import React from 'react';
 import Image from 'next/image';
+import { useRouter } from 'next/navigation';
 import ButtonPrimary from '@/shared/Button/ButtonPrimary';
 import FormItem from '@/shared/FormItem';
 import Input from '@/shared/Input/Input';
@@ -9,6 +12,14 @@ import imageLogin from '@/images/go.png';
 import TopNav from '@/components/Header/TopNav';
 
 const PageLogin = () => {
+  const router = useRouter();
+
+  const handleSignIn = () => {
+    // Implement your sign-in logic here
+    // After successful sign-in, redirect to the client dashboard
+    router.push('/client');
+  };
+
   return (
     <div>
       <TopNav />
@@ -39,7 +50,12 @@ const PageLogin = () => {
                     className="border-neutral-300 bg-transparent placeholder:text-neutral-500 focus:border-primary"
                   />
                 </FormItem>
-                <ButtonPrimary className="bg-yellow-500 text-white hover:bg-yellow-600">Sign In</ButtonPrimary>
+                <ButtonPrimary
+                  className="bg-yellow-500 text-white hover:bg-yellow-600"
+                  onClick={handleSignIn}
+                >
+                  Sign In
+                </ButtonPrimary>
               </div>
               <div className="flex justify-between items-center mt-4">
                 <Link href="/forgot-pass" className="text-sm text-yellow-500">
@@ -56,7 +72,7 @@ const PageLogin = () => {
           </div>
         </div>
 
-        <div className=" relative w-1/2 h-auto pt-4 pb-8 flex items-center justify-center">
+        <div className="relative w-1/2 h-auto pt-4 pb-8 flex items-center justify-center">
           <div className="relative w-180 h-180">
             <Image
               src={imageLogin}

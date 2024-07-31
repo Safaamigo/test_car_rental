@@ -3,11 +3,12 @@
 // import "@/css/satoshi.css";
 // import '@/css/style.css';
 import '@/styles/global.css';
+
 import 'jsvectormap/dist/jsvectormap.cjs';
 
 // import 'jsvectormap/dist/css/jsvectormap.css';
 import React, { useEffect, useState } from "react";
-import Loader from "@/components/common/Loader";
+import Loader from "@/components_clients/common/Loader";
 
 export default function RootLayout({
   children,

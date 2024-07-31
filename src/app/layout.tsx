@@ -18,7 +18,7 @@ export default function RootLayout({
   const pathname = usePathname();
   console.log("Current Pathname:", pathname);
 
-  const hideNavAndFooterRoutes = ['/login', '/signup'].includes(pathname) || pathname.startsWith('/admin');
+  const hideNavAndFooterRoutes = ['/login', '/signup'].includes(pathname);
 
   return (
     <html lang="en">
