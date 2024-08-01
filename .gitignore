@@ -65,5 +65,5 @@ local
 yarn.lock
 
 # Fichiers de package
-package.json
-package-lock.json
+#package.json
+#package-lock.json
