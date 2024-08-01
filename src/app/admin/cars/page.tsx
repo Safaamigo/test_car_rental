@@ -2,7 +2,7 @@ import React from 'react'
 import { Metadata } from "next";
 import DefaultLayout from "@/components/Layouts/DefaultLaout";
 import Breadcrumb from "@/components/Breadcrumbs/Breadcrumb";
-import CarCard from '@/components/Cars/cars-list/CarCard';
+import CarCard from '@/components/admin/Cars/cars-list/CarCard';
 import Container from '@mui/material/Container';
 import { Add } from '@mui/icons-material';//removing padding import { Add, Padding } from '@mui/icons-material';
 
