@@ -1,0 +1,37 @@
+{
+  "name": "carlocation_team2",
+  "version": "1.0.0",
+  "description": "🚀 HotKicks Template for Next JS 13+ with App Router support, Tailwind CSS and TypeScript ⚡️ Made with developer \r experience first: Next.js, TypeScript, ESLint, Prettier, Husky, Lint-Staged, Commitlint, Netlify, PostCSS, Tailwind CSS)",
+  "main": "commitlint.config.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@headlessui/react": "^2.1.2",
+    "@heroicons/react": "^2.1.5",
+    "@next/bundle-analyzer": "^14.2.5",
+    "@tailwindcss/forms": "^0.5.7",
+    "apexcharts": "^3.51.0",
+    "autoprefixer": "^10.4.19",
+    "carlocation_team2": "file:",
+    "framer-motion": "^11.3.19",
+    "jsvectormap": "^1.6.0",
+    "next": "^14.2.5",
+    "postcss": "^8.4.40",
+    "react-apexcharts": "^1.4.1",
+    "react-icons": "^5.2.1",
+    "react-swipeable": "^7.0.1",
+    "react-use": "^17.5.1",
+    "tailwindcss": "^3.4.7"
+  },
+  "devDependencies": {
+    "@types/node": "22.0.2",
+    "@types/react": "18.3.3",
+    "typescript": "5.5.4"
+  }
+}
