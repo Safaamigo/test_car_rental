@@ -63,7 +63,3 @@ local
 
 # Lockfile de Yarn
 yarn.lock
-
-# Fichiers de package
-package.json
-package-lock.json
