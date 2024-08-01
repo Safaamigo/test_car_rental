@@ -1,0 +1,69 @@
+# Voir https://help.github.com/articles/ignoring-files/ pour plus d'informations sur l'ignorance des fichiers.
+
+# Dépendances
+/node_modules
+.pnp
+.pnp.js
+.yarn
+
+#exclue
+!node_modules/jsvectormap/dist/
+
+
+# Environnements de développement
+.idea
+
+# Base de données
+*.db
+
+# Tests
+/coverage
+
+# Storybook
+storybook-static
+
+# Cypress
+cypress/screenshots
+cypress/videos
+
+# Next.js
+/.next
+/out
+
+# Next-sitemap
+public/robots.txt
+public/sitemap.xml
+public/sitemap-*.xml
+
+# Cache
+.swc/
+
+# Production
+/build
+
+# Divers
+.DS_Store
+*.pem
+Thumbs.db
+
+# Fichiers de débogage
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Fichiers d'environnement local
+.env*.local
+
+# Dossier local
+local
+
+# Vercel
+.vercel
+
+# Lockfile de Yarn
+yarn.lock
+
+# Fichiers de package
+package.json
+package-lock.json
