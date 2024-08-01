@@ -63,3 +63,10 @@ local
 
 # Lockfile de Yarn
 yarn.lock
+<<<<<<< HEAD
+=======
+
+# Fichiers de package
+#package.json
+#package-lock.json
+>>>>>>> ff8bf0e679e95e4981b8ca79ceb9ac0d87c43096
