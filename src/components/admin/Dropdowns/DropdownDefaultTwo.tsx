@@ -1,34 +1,34 @@
 import { useState } from "react";
-import ClickOutside from "@/components/ClickOutside";
+import ClickOutside from "@/components/admin/ClickOutside";
 
-const DropdownDefault = () => {
+const DropdownDefaultTwo = () => {
   const [dropdownOpen, setDropdownOpen] = useState(false);
 
   return (
     <ClickOutside onClick={() => setDropdownOpen(false)}>
       <div className="relative flex">
         <button
-          className="hover:text-primary"
+          className="flex items-center justify-center rounded-md bg-white px-1.5 py-[5px] shadow-1 hover:text-dark dark:bg-gray-dark dark:shadow-card dark:hover:text-white"
           onClick={() => setDropdownOpen(!dropdownOpen)}
         >
           <svg
             className="fill-current"
-            width="16"
-            height="16"
-            viewBox="0 0 16 16"
+            width="24"
+            height="25"
+            viewBox="0 0 24 25"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M2 10C3.10457 10 4 9.10457 4 8C4 6.89543 3.10457 6 2 6C0.89543 6 0 6.89543 0 8C0 9.10457 0.89543 10 2 10Z"
+              d="M7 12.5C7 13.6046 6.10457 14.5 5 14.5C3.89543 14.5 3 13.6046 3 12.5C3 11.3954 3.89543 10.5 5 10.5C6.10457 10.5 7 11.3954 7 12.5Z"
               fill=""
             />
             <path
-              d="M8 10C9.10457 10 10 9.10457 10 8C10 6.89543 9.10457 6 8 6C6.89543 6 6 6.89543 6 8C6 9.10457 6.89543 10 8 10Z"
+              d="M14 12.5C14 13.6046 13.1046 14.5 12 14.5C10.8954 14.5 10 13.6046 10 12.5C10 11.3954 10.8954 10.5 12 10.5C13.1046 10.5 14 11.3954 14 12.5Z"
               fill=""
             />
             <path
-              d="M14 10C15.1046 10 16 9.10457 16 8C16 6.89543 15.1046 6 14 6C12.8954 6 12 6.89543 12 8C12 9.10457 12.8954 10 14 10Z"
+              d="M21 12.5C21 13.6046 20.1046 14.5 19 14.5C17.8954 14.5 17 13.6046 17 12.5C17 11.3954 17.8954 10.5 19 10.5C20.1046 10.5 21 11.3954 21 12.5Z"
               fill=""
             />
           </svg>
@@ -37,7 +37,7 @@ const DropdownDefault = () => {
           <div
             className={`absolute right-0 top-full z-40 w-46.5 space-y-1.5 rounded-[7px] border border-stroke bg-white p-2 shadow-2 dark:border-dark-3 dark:bg-dark-2 dark:shadow-card`}
           >
-            <button className="flex w-full items-center gap-2 rounded-lg px-2.5 py-[9px] text-left  font-medium text-dark-4 hover:bg-gray-2 hover:text-dark dark:text-dark-6 dark:hover:bg-dark-3 dark:hover:text-white">
+            <button className="flex w-full items-center gap-2 rounded-lg px-2.5 py-[9px] text-left font-medium text-dark-4 hover:bg-gray-2 hover:text-dark dark:text-dark-6 dark:hover:bg-dark-3 dark:hover:text-white">
               <svg
                 className="fill-current"
                 width="18"
@@ -99,4 +99,4 @@ const DropdownDefault = () => {
   );
 };
 
-export default DropdownDefault;
+export default DropdownDefaultTwo;

@@ -7,7 +7,7 @@ import FormItem from '@/shared/FormItem';
 import Input from '@/shared/Input/Input';
 // Make sure the path to the image is correct
 import imageLogin from '@/images/go.png';
-import TopNav from '@/components/Header/TopNav';
+import TopNav from '@/components/admin/Header/TopNav';
 
 
 const PageLogin = () => {

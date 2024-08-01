@@ -4,7 +4,7 @@ import '@/styles/global.css';
 import React, { Suspense } from 'react';
 import { usePathname } from 'next/navigation';
 
-import Header from '@/components/Header/Header';
+import Header from '@/components/admin/Header/Header';
 import Footer from '@/shared/Footer/Footer';
 // import MainNav from '@/components/Header/MainNav';
 
@@ -18,7 +18,7 @@ export default function RootLayout({
   const pathname = usePathname();
   console.log("Current Pathname:", pathname);
 
-  const hideNavAndFooterRoutes = ['/login', '/signup'].includes(pathname);
+  const hideNavAndFooterRoutes = ['/login', '/signup'].includes(pathname) || pathname.startsWith('/admin');
 
   return (
     <html lang="en">
