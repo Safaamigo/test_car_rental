@@ -1,7 +1,7 @@
 "use client";
 // import { Metadata } from "next";
-import DefaultLayout from "@/components/Layouts/DefaultLaout";
-import Breadcrumb from "@/components/Breadcrumbs/Breadcrumb";
+import DefaultLayout from "@/components/admin/Layouts/DefaultLaout";
+import Breadcrumb from "@/components/admin/Breadcrumbs/Breadcrumb";
 import * as React from 'react';
 import Box from '@mui/material/Box';
 import Tab from '@mui/material/Tab';

@@ -1,5 +1,5 @@
 "use client";
-import Breadcrumb from "@/components/Breadcrumbs/Breadcrumb";
+import Breadcrumb from "@/components/admin/Breadcrumbs/Breadcrumb";
 import CheckboxFive from "@/components/FormElements/Checkboxes/CheckboxFive";
 import CheckboxFour from "@/components/FormElements/Checkboxes/CheckboxFour";
 import CheckboxOne from "@/components/FormElements/Checkboxes/CheckboxOne";

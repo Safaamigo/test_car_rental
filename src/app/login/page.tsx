@@ -9,7 +9,7 @@ import FormItem from '@/shared/FormItem';
 import Input from '@/shared/Input/Input';
 // Assurez-vous que le chemin de l'image est correct
 import imageLogin from '@/images/go.png';
-import TopNav from '@/components/Header/TopNav';
+import TopNav from '@/components/admin/Header/TopNav';
 
 const PageLogin = () => {
   const router = useRouter();
