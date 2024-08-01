@@ -50,9 +50,9 @@ const ChartFive: React.FC = () => {
       horizontalAlign: "left",
       fontFamily: "Satoshi",
 
-      markers: {
+      /*markers: {
         radius: 99,
-      },
+      },*/
     },
     grid: {
       strokeDashArray: 7,

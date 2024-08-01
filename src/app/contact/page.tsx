@@ -1,11 +1,11 @@
-import Image from 'next/image';
+//import Image from 'next/image';
 import Link from 'next/link';
-import { pathOr } from 'ramda';
+//import { pathOr } from 'ramda';
 import React from 'react';
 
 import { contactSection } from '@/data/content';
 import ButtonCircle3 from '@/shared/Button/ButtonCircle3';
-import ButtonSecondary from '@/shared/Button/ButtonSecondary';
+//import ButtonSecondary from '@/shared/Button/ButtonSecondary';
 import Heading from '@/shared/Heading/Heading';
 
 import ContactForm from './ContactForm';
